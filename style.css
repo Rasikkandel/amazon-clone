@@ -1,0 +1,124 @@
+*{
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+    }  
+    .nav{
+      height: 120px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(36, 36, 46);
+      color: white;
+      align-items: center;
+      justify-content: space-around;
+    }    
+    .center button{
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+       height: 32px;
+      background-color: orange;
+    } 
+    .right a{ 
+      text-decoration: none;
+      color: white;
+      border-right: 1px solid rgb(49, 49, 87);
+      padding: 4px;
+    }  
+    .right a:hover {
+      color: rgb(243, 159, 4);
+      text-decoration: underline;
+    }
+    .center input{
+      width: 900px;
+      height: 30px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    .left img{ 
+      height: 116px;
+      width: 125px;
+    }       
+    .left{
+      background-color:  rgb(36, 36, 46); ;
+    }
+    .main{
+      background-color: lightgray;
+      height: 1100px;
+    } 
+    .main .shop .img img{
+      height: 700px;
+      width: 1500px;
+      margin-left: 10px;
+    }  
+    .items{
+      position: relative;
+      display: flex;
+      bottom : 400px ; 
+      left : 30px ; 
+      flex-wrap: wrap;
+      justify-content: space-evenly;    
+    }                                   
+    .item-1 {
+      background-color: white;
+      border: 1px solid white;
+      padding: 5px;
+      width: 300px;
+      height: 350px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }      
+    .item-1 img {
+      height: 300px;
+      width: 270px;
+    } 
+    #a{
+      height: 270px ;
+      width: 250px; 
+    }  
+    .loved-saman{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+    }  
+    .loved-saman img{ 
+      height: 115px;
+      width: 115px;
+    }  
+    .loved-saman p a{ 
+      text-decoration: none;
+      font-size: 15px;
+      color: blue;
+    } 
+    .footer{
+      height: 120px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(36, 36, 46);
+      color: white;
+      align-items: center;
+      justify-content: center; 
+    } 
+    .footer img{
+      height: 116px;
+      width: 125px;
+    }
+    .last{
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      color: white;
+      align-items: center;
+    }
+   .last a{
+    font-size: 14px;
+    margin-right: 18px;
+    text-decoration: none;
+   }
